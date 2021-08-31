@@ -1,11 +1,14 @@
+/**
+ * @author: Edson A. Terceros T.
+ */
+
 package com.sales.market.model;
 
 import javax.persistence.Entity;
-import javax.persistence.Id;
 
+/*Cajero, Acomodador, Almacenero*/
 @Entity
-public class Position extends ModelBase{
-
+public class Position extends ModelBase {
     private String name;
 
     public String getName() {

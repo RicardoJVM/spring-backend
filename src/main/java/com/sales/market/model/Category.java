@@ -1,3 +1,7 @@
+/**
+ * @author: Edson A. Terceros T.
+ */
+
 package com.sales.market.model;
 
 import javax.persistence.Entity;

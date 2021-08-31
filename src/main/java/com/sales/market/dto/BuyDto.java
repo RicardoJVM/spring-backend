@@ -1,9 +1,13 @@
+/**
+ * @author: Edson A. Terceros T.
+ * 17
+ */
+
 package com.sales.market.dto;
 
-        import com.sales.market.model.Buy;
-        import com.sales.market.model.ModelBase;
+import com.sales.market.model.Buy;
 
-        import java.math.BigDecimal;
+import java.math.BigDecimal;
 
 public class BuyDto extends DtoBase<Buy> {
 

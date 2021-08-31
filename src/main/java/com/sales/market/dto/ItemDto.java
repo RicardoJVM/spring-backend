@@ -1,15 +1,11 @@
-/**
- * @author: Edson A. Terceros T.
- */
+package com.sales.market.dto;
 
-package com.sales.market.model;
+import com.sales.market.model.Item;
 
-import javax.persistence.Entity;
-
-@Entity
-public class SubCategory extends ModelBase {
+public class ItemDto extends DtoBase<Item> {
     private String name;
     private String code;
+    private Byte[] image;
 
     public String getName() {
         return name;
@@ -25,5 +21,13 @@ public class SubCategory extends ModelBase {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    public Byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(Byte[] image) {
+        this.image = image;
     }
 }
